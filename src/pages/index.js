@@ -13,7 +13,6 @@ const IndexPage = () => (
     <Hero />
     <Content />
     <CallToAction />
-    <Contact />
   </Layout>
 )
 
