@@ -22,11 +22,10 @@ border-radius: 10px;
 
                     <input type="hidden" name="bot-field" />
 
-                    <div className="field half first">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" required/>
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" required/>
+                    <div>
+                        <input type="text" name="name" id="name" placeholder=" Name "required/>
+                       
+                        <input type="text" name="email" id="email" placeholder=" email "required/>
                     </div>
                         <Button onclick="this.form.submit()">Get Early Access</Button>
 
