@@ -7,7 +7,7 @@ import { COLORS } from "../styles/constants"
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="Know what is available befoer you go"
+      title="Know what is available before you go"
       description="Don't spend time driving from one market to another searching for your favorite product."
     />
     <content
