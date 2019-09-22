@@ -22,6 +22,15 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+  <style>
+  input {
+margin-right:3px;
+margin-right:3px;
+margin-bottom:3px;
+margin-top:3px;
+border-radius: 10px;
+}
+  </style>
   </header>
 )
 
