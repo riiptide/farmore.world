@@ -3,6 +3,7 @@ module.exports = {
     title: `Farmore Landing Page`,
     description: `A barebone landing page starter with some minimal styles.`,
     author:`farmore`,
+    siteUrl:`http://farmore.world`,
     
   },
   plugins: [
