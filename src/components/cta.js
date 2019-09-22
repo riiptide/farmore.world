@@ -7,7 +7,7 @@ const CallToAction = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
       title="Stay Updated"
-      description="Give a final call to action because that's what the cool kids are doing."
+      description="Signup to know when the farmore app is ready for download."
     />
   <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
 
