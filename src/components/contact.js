@@ -27,7 +27,7 @@ const Contact = (props) => (
 
 
         </form>
-            </section>
+            </SectionHeader>
 
         </div>
     
