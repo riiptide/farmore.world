@@ -21,7 +21,6 @@ const CallToAction = () => (
                         <label htmlFor="email">Email</label>
                         <input type="text" name="email" id="email" required/>
                     </div>
-                        <input type="submit" value="Send Message" className="special" />
                         <Button onclick="this.form.submit()">Get Early Access</Button>
 
 
