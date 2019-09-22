@@ -9,7 +9,7 @@ const Contact = (props) => (
       id="contact"
         title="Stay Updated"
       description="Signup"
-    >
+    />
                 <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
 
                     <input type="hidden" name="bot-field" />
@@ -27,7 +27,7 @@ const Contact = (props) => (
 
 
         </form>
-            </SectionHeader>
+
 
         </div>
     
