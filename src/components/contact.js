@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from "../components/button"
-import SectionHeader from "./section-header"
+import SectionHeader from "../components/section-header"
 
 const Contact = (props) => (
     
