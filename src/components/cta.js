@@ -16,8 +16,6 @@ const CallToAction = () => (
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" required/>
-                    </div>
-                    <div className="field half">
                         <label htmlFor="email">Email</label>
                         <input type="text" name="email" id="email" required/>
                     </div>
