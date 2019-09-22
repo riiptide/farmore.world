@@ -7,7 +7,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://c.pxhere.com/photos/17/1f/market_stand_vegetables_variety_colors_stall_eggplant_tomatoes-759704.jpg!d");
+  background-image: no-repeat center url("https://c.pxhere.com/photos/17/1f/market_stand_vegetables_variety_colors_stall_eggplant_tomatoes-759704.jpg!d");
+  opacity: 0.5;
 }
 article,
 aside,
