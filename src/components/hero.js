@@ -30,6 +30,7 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       Connect with your local farmer's market. 
     </p>
+  <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
 <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
 
                     <input type="hidden" name="bot-field" />
@@ -45,7 +46,7 @@ const Header = ({ siteTitle }) => (
 
 
         </form>
-
+</div>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />
