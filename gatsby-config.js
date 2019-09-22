@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Farmore Landing Page`,
     description: `A barebone landing page starter with some minimal styles.`,
+    author:`farmore`,
     
   },
   plugins: [
