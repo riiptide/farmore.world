@@ -1,6 +1,7 @@
 import React from "react"
 
-import feature from "../images/feature.png"
+import marketStand from "../images/market_stand_vegetables_variety_colors_stall_eggplant_tomatoes-759704.jpg"
+
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
 
@@ -20,12 +21,12 @@ const Content = () => (
     >
       <div>
         <h3>Why Farmore</h3>
-        <p style={{ color: COLORS.gray }}>
+        <p style={{ color: COLORS.darkGreen, padding: "1rem 1rem"}}>
           If you are a farmer's market vendor, a farm store owner, a farmer's market organizer or a health-conscious buyer who buys local, farmore is for you!!
         </p>
       </div>
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        <img src={marketStand} alt="produce" />
       </div>
     </content>
   </div>
