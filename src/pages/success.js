@@ -2,7 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 
-import pic11 from '../assets/images/pic11.jpg';
 
 const Success = props => (
   <Layout>
@@ -15,12 +14,12 @@ const Success = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>Success/Thank You Page</h1>
+            <h1>Thank You</h1>
           </header>
           <span className="image main">
-            <img src={pic11} alt="" />
+            
           </span>
-          <p>Thank you for contacting us!</p>
+          <p>Thank you for signing up. We will notify you wheb farmore is ready to download from the app store!</p>
         </div>
       </section>
     </div>
