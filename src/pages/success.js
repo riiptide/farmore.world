@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
-import SectionHeader from "./section-header"
+import SectionHeader from "../components/section-header"
 
 
 const Success = props => (
