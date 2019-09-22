@@ -9,6 +9,15 @@ const CallToAction = () => (
       title="Stay Updated"
       description="Signup to know when the farmore app is ready for download."
     />
+  <style>
+  input {
+margin-right:3px;
+margin-right:3px;
+margin-bottom:3px;
+margin-top:3px;
+border-radius: 10px;
+}
+  </style>
   <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
 
                     <input type="hidden" name="bot-field" />
