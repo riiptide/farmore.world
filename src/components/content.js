@@ -19,10 +19,9 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>What you need to Start</h3>
+        <h3>Why Farmore</h3>
         <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
+          If you are a farmer's market vendor, a farm store owner, a farmer's market organizer or a health-conscious buyer who buys local, farmore is for you!!
         </p>
       </div>
       <div>
