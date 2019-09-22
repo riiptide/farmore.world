@@ -12,7 +12,7 @@ const Success = props => (
     </Helmet>
 
     <div id="main" className="alt">
-      <SectionHeader id="one">
+      <SectionHeader id="one"/>
         <div className="inner">
           <header className="major">
             <h1>Thank You</h1>
@@ -22,7 +22,7 @@ const Success = props => (
           </span>
           <p>Thank you for signing up. We will notify you when farmore is ready to download from the app store!</p>
         </div>
-      </SectionHeader>
+
     </div>
   </Layout>
 );
