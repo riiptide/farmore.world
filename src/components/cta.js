@@ -26,7 +26,6 @@ const CallToAction = () => (
 
 
         </form>
- <!--     <Button>Get Early Access</Button>-->
   </div>
 )
 
