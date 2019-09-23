@@ -15,11 +15,11 @@ const CallToAction = () => (
                     <input type="hidden" name="bot-field" />
 
                     <div>
-                        <input 
-  type="text" name="name" id="name" placeholder=" Name "required/>
+                        <input
+                          type="text" name="name" id="name" placeholder=" Name " required/>
                        
-                        <input 
-  type="text" name="email" id="email" placeholder=" email "required/>
+                        <input
+                          type="text" name="email" id="email" placeholder=" email " required/>
                     </div>
                         <Button onclick="this.form.submit()">Get Early Access</Button>
 
