@@ -21,8 +21,10 @@ const Content = () => (
     >
       <div>
         <h3>Why Farmore</h3>
-        <p style={{ color: COLORS.darkGreen, padding: "1rem 1rem"}}>
-          If you are a farmer's market vendor, a farm store owner, a farmer's market organizer or a health-conscious buyer who buys local, farmore is for you!!
+        <p style={{ color: COLORS.darkGreen, padding: "1rem 1rem" }}>
+          If you are a farmer's market vendor, a farm store owner, a farmer's
+          market organizer or a health-conscious buyer who buys local, farmore
+          is for you!!
         </p>
       </div>
       <div>

@@ -1,6 +1,6 @@
 import React from "react"
 
-import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
+import { BORDER_RADIUS, COLORS, GRADIENT } from "../styles/constants"
 import "../styles/button.css"
 
 const Button = ({ children }) => (

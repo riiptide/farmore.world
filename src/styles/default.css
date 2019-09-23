@@ -7,7 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- background-color: #d2ff4d;
+    background-color: #d2ff4d;
 }
 article,
 aside,
@@ -448,9 +448,9 @@ li > p {
 }
 
 input {
-margin-right:3px;
-margin-right:3px;
-margin-bottom:3px;
-margin-top:3px;
-border-radius: 10px;
+    margin-right: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 10px;
 }

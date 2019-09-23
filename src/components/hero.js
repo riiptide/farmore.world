@@ -28,25 +28,38 @@ const Header = ({ siteTitle }) => (
     />
     <h1 style={{ textAlign: "center" }}>Farmore</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      Connect with your local farmer's market. 
+      Connect with your local farmer's market.
     </p>
-  <div style={{  textAlign: "center" }}>
-<form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+    <div style={{ textAlign: "center" }}>
+      <form
+        name="contact"
+        method="post"
+        action="/success"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="bot-field"/>
 
-                    <input type="hidden" name="bot-field" />
+        <div>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder=" Name "
+            required
+          />
 
-                    <div>
-                        <input 
-  type="text" name="name" id="name" placeholder=" Name "required/>
-                       
-                        <input 
-  type="text" name="email" id="email" placeholder=" email "required/>
-                    </div>
-                        <Button onclick="this.form.submit()">Get Early Access</Button>
-
-
-        </form>
-</div>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder=" email "
+            required
+          />
+        </div>
+        <Button onclick="this.form.submit()">Get Early Access</Button>
+      </form>
+    </div>
     <div style={{ margin: 1, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />

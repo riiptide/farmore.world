@@ -21,10 +21,7 @@ const Footer = ({ siteTitle }) => (
       }}
     >
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
-        <a
-          style={{ textDecoration: "none" }}
-          href="http://farmore.world"
-        >
+        <a style={{ textDecoration: "none" }} href="http://farmore.world">
           Contact Us
         </a>
       </div>
