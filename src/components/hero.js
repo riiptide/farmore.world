@@ -5,6 +5,7 @@ import Button from "../components/button"
 import headerImage from "../images/header.png"
 import MockupContent from "./image"
 import mockupFrame from "../images/mockup-frame.png"
+import logo from "../images/farmore-logo-main.png"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -26,7 +27,10 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Farmore</h1>
+    <img
+      src={logo}
+      alt="Farmore"
+    />
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       Connect with your local farmer's market.
     </p>
